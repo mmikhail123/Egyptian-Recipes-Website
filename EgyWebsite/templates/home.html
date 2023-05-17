@@ -1,0 +1,173 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<div class="home">
+    <html>
+ <head>
+    <style>
+    {
+        box-sizing: border-box;
+    }
+    /* Set additional styling options for the columns */
+    .column {
+    float: left;
+    }
+
+    /* Set width length for the left, right and middle columns */
+    .left {
+    width: 33%;
+    }
+
+    .middle {
+    width: 33%;
+    }
+    
+    .right {
+    width: 33%;
+    }
+
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+    </style>
+ </head>
+ <body>
+    <div class="row">
+        <div class="column left" style="background-color:#ffffff;">
+            <center>
+                <img src="{{ user_image }}" alt="koshary" height="225px" width="auto">
+            </center>
+            <a href="{{ url_for('koshary') }}">
+                <h3>Koshary (كشري)</h3>
+            </a>
+            <style>
+                a {text-decoration: none;}
+            </style>
+            <p>
+                The national dish of Egypt. A dish containing a mix of pasta, lentils, and rice
+                topped off with a vinager tomato sauce and fried onions.   
+            </p>
+        </div>
+        <div class="column middle" style="background-color:#ffffff;">
+            <center>
+                <img src="{{molo_image}}" alt="molokhia" height="225px" width="auto">
+            </center>
+            <a href="{{ url_for('molokhia') }}">
+                <h3> Molokhia (ملوخيه)</h3>
+            </a>
+            <style>
+                a {text-decoration: none;}
+            </style>
+            <p>Meat stew made with finely chopped mallow leaves. </p>
+        </div>
+        <div class="column right" style="background-color:#ffffff;">
+            <center>
+                <img src="{{macbech_image}}" alt="macorona bechamel" height="225px" width="auto">
+            </center>
+            <a href="{{ url_for('macbech') }}">
+                <h3> Macarona Bechamel (مكرونة بشاميل)</h3>
+            </a>
+            <style>
+                a {text-decoration: none;}
+            </style>
+            <p>Layered pasta dish of penne, meat ragu, and bechamel sauce.</p>
+        </div>
+    </div>
+    
+    
+    <div class="row">
+        <div class="column left" style="background-color:#ffffff;">  
+            <center>
+                <img src="{{falafel_image}}" alt="falafel" height="225px" width="auto">
+            </center>
+            <a href="{{ url_for('falafel') }}">
+                <h3> Falafel (طعمية)</h3>
+            </a>
+            <style>
+                a {text-decoration: none;}
+            </style>
+            <p>
+                Fried spiced fava bean fritter that is typically served in pita with tahini and salad.
+            </p>
+        </div>
+        <div class="column middle" style="background-color:#ffffff;">
+            <center>
+                <img src="{{goulash_image}}" alt="goulash" height="225px" width="auto">
+            </center>
+            <a href="{{ url_for('goulash') }}">
+                <h3> Goulash (جلاش باللحمة)</h3>
+            </a>
+            <style>
+                a {text-decoration: none;}
+            </style>
+            <p>
+                Phyllo pie with spiced meat. 
+            </p>
+        </div>
+        <div class="column right" style="background-color:#ffffff;">
+            <center>
+                <img src="{{hawawashi_image}}" alt="hawawashi" height="225px" width="auto">
+            </center>
+            <a href="{{ url_for('hawawashi') }}">
+                <h3> Hawawashi (حواوشي)</h3>
+            </a>
+            <style>
+                a {text-decoration: none;}
+            </style>
+            <p>
+                Stuffed pita with spiced ground meat.  
+            </p>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="column left" style="background-color:#ffffff;">  
+            <center>
+                <img src="{{kofta_image}}" alt="kofta" height="225px" width="auto">
+            </center>
+            <a href="{{ url_for('kofta') }}">
+                <h3> Kofta (كفتة اللحم)</h3>
+            </a>
+            <style>
+                a {text-decoration: none;}
+            </style>
+            <p>
+                Grilled spiced meat that is usually served with tahini, salad, and pita.  
+            </p>
+        </div>
+        <div class="column middle" style="background-color:#ffffff;">
+            <center>
+                <img src="{{mahshi_image}}" alt="mahshi" height="225px" width="auto">
+            </center>
+            <a href="{{ url_for('mahshi') }}">
+                <h3> Mahshi (محشي)</h3>
+            </a>
+            <style>
+                a {text-decoration: none;}
+            </style>
+            <p>
+                Stuffed vegetables with a spiced rice and ground meat filling.   
+            </p>
+        </div>
+        <div class="column right" style="background-color:#ffffff;">
+            <center>
+                <img src="{{mombar_image}}" alt="mombar" height="225px" width="auto">
+            </center>
+            <a href="{{ url_for('mombar') }}">
+                <h3> Mombar (ممبار)</h3>
+            </a>
+            <style>
+                a {text-decoration: none;}
+            </style>
+            <p>
+                A type of Egyptian sausage of stuffed beef intenstines with spiced rice and meat. 
+            </p>
+        </div>
+    </div>
+
+ </body>
+</html>
+</div>
+{% endblock %}

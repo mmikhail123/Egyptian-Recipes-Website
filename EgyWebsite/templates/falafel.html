@@ -1,0 +1,76 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="molokhia">
+<html>
+<head>
+  <style> 
+    {
+      box-sizing: border-box;
+    }
+    .column{
+      float: left;
+    }
+    .left{
+      width: 50%;
+    }
+    .right{
+      width: 50%;
+    }
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  </style>
+<div class="row">
+  <div class="column left"
+    <h4 style="font-size: 3.5em; position:relative; left: 40px; padding-top: 28%;">
+      Falafel (طعمية)
+    </h4>
+    <p style="font-size: 20px; color: black; font-family:'Baskerville Old Face', serif; position:relative; right:140px; line-height: 1.5em;">
+      Total Time: 1 hr <br> 
+      Difficulty: &#9733;&#9733;
+    </p>
+    <hr style="background-color:#000000; height: .5px; position:relative; right:127px; width: 50%;">
+   
+  </div>
+  
+  <div class="column right" 
+    <center style="margin-top: 7%; ">
+      <img src="{{url_for('static', filename='img/fal1.jpeg')}}" class="img" alt="koshary" height="auto" width="133.3%"/>
+    </center>
+  </div>
+</div>
+</head> 
+
+<body>
+
+<hr style="height: 2px; margin-top: 2%; background-color: black; width: 120%; position: relative; right: 100px;">
+<h4>
+  Ingredients:
+  <br>
+  <ul style="font-size: 20px;line-height: 1.5em;">
+    <li>Dried Halved Fava Beans</li>
+    <li>Spring Onions</li>
+    <li>Parsley</li>
+    <li>Dill</li>
+    <li>Yellow Onions</li>
+    <li>Roasted Sesame Seeds</li>
+    <li>Salt/Pepper</li>
+    <li>Coriander</li>
+    <li>Cumin</li>
+    <li>Ground dried cayenne chili</li>
+  </ul>
+  <hr style="height: 2px; margin-top: 5%; background-color: black; width: 120%; position: relative; right: 100px;">
+</h4>
+<h4>
+  Directions:
+  <ol style="font-size: 20px;line-height: 2em;">
+    <li>First rehydrate the fava beans for a few days beforehand changing the water daily.</li>
+    <li>In a food processor, begin putting all the fava beans until they are blended into a course paste. Next, add the onions, spring onions, parsley, and dill until it is a paste. Add all of it to a large bowl. Next add salt, cumin, coriander, pepper, and dried crushed cayanne pepper. Add these spices to taste.</li>
+    <li>To cook, add enough neutral oil into a pan to shallow fry. Form the mixture into small patties with sesame seeds sprinkled on both sides. Cook each side for a few minutes or until they are dark brown. Then flip. Once it is crispy on both sides, take it out on a plate with paper towels to soak up the excess oil. Serve with tahini, pita, and salad!</li>
+  </ol>
+</h4>
+</body>
+</div>
+{% endblock %}

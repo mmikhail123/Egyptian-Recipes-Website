@@ -1,0 +1,81 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="koshary">
+<html>
+<head>
+  <style> 
+    {
+      box-sizing: border-box;
+    }
+    .column{
+      float: left;
+    }
+    .left{
+      width: 50%;
+    }
+    .right{
+      width: 50%;
+    }
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  </style>
+<div class="row">
+  <div class="column left"
+    <h4 style="font-size: 3.5em; position:relative; left: 40px; padding-top: 28%;">
+      Kofta (كفتة اللحم)
+    </h4>
+    <p style="font-size: 20px; color: black; font-family:'Baskerville Old Face', serif; position:relative; right:140px; line-height: 1.5em;">
+      Total Time: 2 hrs <br> 
+      Difficulty: &#9733;&#9733;
+    </p>
+    <hr style="background-color:#000000; height: .5px; position:relative; right:127px; width: 50%;">
+   
+  </div>
+  
+  <div class="column right" 
+    <center style="margin-top: 7%; ">
+      <img src="{{url_for('static', filename='img/kof2.jpg')}}" class="img" alt="koshary" height="auto" width="133.3%"/>
+    </center>
+  </div>
+</div>
+</head> 
+
+<body>
+
+<hr style="height: 2px; margin-top: 3%; background-color: black; width: 120%; position: relative; right: 100px;">
+<h4>
+  Ingredients:
+  <br>
+  <ul style="font-size: 20px;line-height: 1.5em;">
+    <li>1 lb ground meat (beed, lamb, or turkey)</li>
+    <li>Yellow Onion</li>
+    <li>Head of Garlic</li>
+    <li>2 Eggs</li>
+    <li>Bread Crumbs</li>
+    <li>Cumin</li>
+    <li>Coriander</li>
+    <li>Chili Powder</li>
+    <li>Paprika</li>
+    <li>Garlic Powder</li>
+    <li>Za'tar</li>
+    <li>Bay Leaves</li>
+    <li>Ground dried chilis</li>
+    <li>dried herbs</li>
+  </ul>
+  <hr style="height: 2px; margin-top: 5%; background-color: black; width: 120%; position: relative; right: 100px;">
+</h4>
+<h4>
+  Directions:
+  <ol style="font-size: 20px;line-height: 2em;">
+    <li>Let's season the meat! Place your ground meat in a bowl. Then add all the seasonings (generous amount of everything!). Then in order to bind the meat, add two cracked eggs and a bit of breadcrumbs depending on how wet or dry the mixture is (ground turkey tends to need a bit more bread crumbs!). Let marinate in the fridge for as long as possible (overnight is ideal!), but for at least an hour.</li>
+    <li>Time to cook! You have options! You can cook in pan or as kebabs. For pan cooking, get a pan and heat it with neutral oil. Shape the meat into small fingers and place in the pan when hot. Flip when it becomes crispy and brown. Add a spoon of butter into the pan for extra flavor! Once fully cooked, add parsley as garnish and serve! For kebab, get metal kebabs and shape the groud meat onto the skewers. Ideally, this is cooked on a grill but cooking in oven is chill too.</li>
+    <li>Garnish with parsley and serve with pita and tahini!</li>
+
+  </ol>
+</h4>
+</body>
+</div>
+{% endblock %}

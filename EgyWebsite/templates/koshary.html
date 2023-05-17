@@ -1,0 +1,84 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="koshary">
+<html>
+<head>
+  <style> 
+    {
+      box-sizing: border-box;
+    }
+    .column{
+      float: left;
+    }
+    .left{
+      width: 50%;
+    }
+    .right{
+      width: 50%;
+    }
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  </style>
+<div class="row">
+  <div class="column left"
+    <h4 style="font-size: 3.5em; position:relative; left: 40px; padding-top: 28%;">
+      Koshary (كشري)
+    </h4>
+    <p style="font-size: 20px; color: black; font-family:'Baskerville Old Face', serif; position:relative; right:140px; line-height: 1.5em;">
+      Total Time: 1 hr 30 min <br> 
+      Difficulty: &#9733;&#9733;
+    </p>
+    <hr style="background-color:#000000; height: .5px; position:relative; right:127px; width: 50%;">
+   
+  </div>
+  
+  <div class="column right" 
+    <center style="margin-top: 7%; ">
+      <img src="{{url_for('static', filename='img/kosh2.jpeg')}}" class="img" alt="koshary" height="auto" width="133.3%"/>
+    </center>
+  </div>
+</div>
+</head> 
+
+<body>
+
+<hr style="height: 2px; margin-top: 5%; background-color: black; width: 120%; position: relative; right: 100px;">
+<h4>
+  Ingredients:
+  <br>
+  <ul style="font-size: 20px;line-height: 1.5em;">
+    <li>1 box of Ditali Pasta</li>
+    <li>1 cup of Black Lentils</li>
+    <li>1 cup of Short-Grain Rice</li>
+    <li>4 Yellow Onions</li>
+    <li>1 cup of Vermicelli Noodles</li>
+    <li>1 cup of Rehydrated Chickpeas</li>
+    <li>5 cloves of Garlic</li>
+    <li>1 can of Crushed Tomato Sauce</li>
+    <li>2 tbsp Tomato Paste</li>
+    <li>1 tbsp of Cumin</li>
+    <li>Salt and Pepper</li>
+    <li>5 Dried Whole Red Chilis</li>
+    <li>4 Bay Leaves</li>
+    <li>1 tbsp Vinegar</li>
+  </ul>
+  <hr style="height: 2px; margin-top: 5%; background-color: black; width: 120%; position: relative; right: 100px;">
+</h4>
+<h4>
+  Directions:
+  <ol style="font-size: 20px;line-height: 2em;">
+    <li>First begin by filling a pot with water in order to cook the pasta. Put on the stove under medium heat. Once it starts boiling, add 1 tbsp salt and the entire box of the pasta.</li>
+    <li>Let's begin by cooking the lentils. First begin by finely dicing 1 yellow onion. Get a pot and start sautéing the onions until they sweat and become translucent. Add salt and pepper to taste as well as 2 bay leaves and 2 dried red chilis. Then add 2 cups of water and 1 cup of lentils to the pot. It is fully cooked when all the water has dried and the lentils are tender. </li>
+    <li>Next let's cook the rice and vermicelli noodles. First get a pot and start by heating up a tablespoon of any neutral oil. Once hot, add the rice (don't forget to wash the rice!) and vermicelli noodles to the oil and begin lightly toasting them until they become golden brown. Once golden brown, add two cups of water and a tablespoon of salt to the pot. It is fully cooked when all the water dries and the noodles/rice are tender.</li>
+    <li>Now let's make the sauce. First start by crushing and chopping 5 cloves of garlic. Fry them in a saucepan with a tablespoon of neutral oil. Add salt/pepper to taste as well as 2 bay leaves and 3 dried red chilis. Fry until the garlic becomes golden brown. Then add 2 tablespoons of tomato paste and cook for around 5 min. Next add one can of crushed tomator sauce. Taste and adjust the salt and pepper to taste as well as add 1 tablespoon of vinegar (though adjust to your own taste!) and 1 tablespoon of cumin. Let simmer for 10-15 min.</li>
+    <li>Let's cook the chickpeas! Begin by boiling 5 cups of water in a pot. Once boiling, add one tablespoon of salt and one cup of chickpeas. Cook until they are tender. </li>
+    <li>Next, it's time to fry the onions. Add enough oil to a pan to allow for a shallow fry. Next cut 3 yellow onions into half circles. Once the oil is hot, add the onions to fry. They are done when they turn brown almost black (not black enough that they are burned though!). Take them out on a plate with paper towels to absorb the extra oil.</li>
+    <li>Finally, it's time to assemble! Get a large baking dish that will fit everything. Add all the ditali pasta at the bottom. Then layer the rice/vermicelli noodles with the layer of lentils on top. Next add a layer of fried onions with chickpeas on top. Leave the sauce on the side to allow people to take how much they want! Now it's time to eat!!! </li>
+  </ol>
+</h4>
+</body>
+</div>
+{% endblock %}

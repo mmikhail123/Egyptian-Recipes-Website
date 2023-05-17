@@ -1,0 +1,86 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="molokhia">
+<html>
+<head>
+  <style> 
+    {
+      box-sizing: border-box;
+    }
+    .column{
+      float: left;
+    }
+    .left{
+      width: 50%;
+    }
+    .right{
+      width: 50%;
+    }
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  </style>
+<div class="row">
+  <div class="column left"
+    <h4 style="font-size: 2.70em; position:relative; right:70px; padding-top: 28%;">
+      Macarona Bechamel (مكرونة بشاميل)
+    </h4>
+    <p style="font-size: 20px; color: black; font-family:'Baskerville Old Face', serif; position:relative; right:20px; line-height: 1.5em;">
+      Total Time: 4 hrs <br> 
+      Difficulty: &#9733;&#9733;&#9733;
+    </p>
+    <hr style="background-color:#000000; height: .5px; position:relative; right:20px; width: 50%;">
+   
+  </div>
+  
+  <div class="column right" 
+    <center style="margin-top: 7%; ">
+      <img src="{{url_for('static', filename='img/macbech2.jpeg')}}" class="img" alt="koshary" height="auto" width="133.3%"/>
+    </center>
+  </div>
+</div>
+</head> 
+
+<body>
+
+<hr style="height: 2px; margin-top: 2%; background-color: black; width: 120%; position: relative; right: 100px;">
+<h4>
+  Ingredients:
+  <br>
+  <ul style="font-size: 20px;line-height: 1.5em;">
+    <li>1lb of ground beef (turkey can work as well)</li>
+    <li>Penne Pasta</li>
+    <li>Milk</li>
+    <li>Eggs</li>
+    <li>Flour</li>
+    <li>Yellow Onions</li>
+    <li>Garlic</li>
+    <li>Crushed Tomato Sauce</li>
+    <li>Tomato Paste</li>
+    <li>Parsley</li>
+    <li>Bay Leaves</li>
+    <li>Salt/Pepper</li>
+    <li>Chili Powder</li>
+    <li>Paprika</li>
+    <li>Garlic Powder</li>
+    <li>Dried Herbs</li>
+    <li>Dried Chilis (guajillo, ancho, or cayenne)</li>
+    <li>Cumin</li>
+  </ul>
+  <hr style="height: 2px; margin-top: 5%; background-color: black; width: 120%; position: relative; right: 100px;">
+</h4>
+<h4>
+  Directions:
+  <ol style="font-size: 20px;line-height: 2em;">
+    <li>Start by taking a pot and filling it with water. Once it is boiling, add the box of penne and a tbsp of salt. Drain when cooked.</li>
+    <li>Next let's make the tomato-meat layer. Start by dicing a yellow onion and a few cloves of garlic. Add neutral oil to a pan and let it saute and it till it sweats and becomes translucent. Add the dried chilis and bay leaves to the pan to fry. Then add the ground beef to the pan and let it brown. Add all the spices to taste. Once browned and the liquid dried, add a few tablespoons of tomato paste and mix it well into the ground beef. Next add one can of crushed tomato sauce into the ground beef. Add more spices to taste as well as parsley into the mixture. Let it simmer and cook down for about 15 min. If it gets too dry, feel free to add bits of water to loosen it and prevent it from burning (but not too much!).</li>
+    <li>Now let's start the bechamel sauce. Add around 5 cups of milk (or just enough to fill your pot) and put it under medium heat. Once it becomes warm, whisk two eggs in a bowl and add it to the milk. Mix it with a whisk continously so that the eggs don't cook in the milk. Then add a few tablespoons of flour into the milk, adding it a few spoons at a time. Add salt and pepper to taste. Continue mixing until the sauce becomes thick. Once it becomes thicker, turn off the heat. As it cools it becomes thicker as well. </li>
+    <li>It's time to assemble! Get a large glass baking dish. Add around half of the pasta to the bottom of the dish as well as a few spoons of the bechamel and mix. Next, layer the ground meat on the pasta. Then layer a few spoons of bechamel on top of the ground meat. Add the rest of the pasta and the rest of the bechemal sauce.</li>
+    <li>Heat the oven to broil at around 450 degrees fahrenheit. When heated, add the pasta dish into the oven. Once the bechemal becomes golden brown, it is done. Eat while its hot!</li>
+  </ol>
+</h4>
+</body>
+</div>
+{% endblock %}

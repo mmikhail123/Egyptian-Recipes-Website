@@ -1,0 +1,83 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="koshary">
+<html>
+<head>
+  <style> 
+    {
+      box-sizing: border-box;
+    }
+    .column{
+      float: left;
+    }
+    .left{
+      width: 50%;
+    }
+    .right{
+      width: 50%;
+    }
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  </style>
+<div class="row">
+  <div class="column left"
+    <h4 style="font-size: 3.5em; position:relative; left: 40px; padding-top: 28%;">
+      Mombar (ممبار)
+    </h4>
+    <p style="font-size: 20px; color: black; font-family:'Baskerville Old Face', serif; position:relative; right:140px; line-height: 1.5em;">
+      Total Time: 4 hrs <br> 
+      Difficulty: &#9733;&#9733;&#9733;&#9733;&#9733;
+    </p>
+    <hr style="background-color:#000000; height: .5px; position:relative; right:127px; width: 50%;">
+   
+  </div>
+  
+  <div class="column right" 
+    <center style="margin-top: 7.52%; ">
+      <img src="{{url_for('static', filename='img/mom1.jpeg')}}" class="img" alt="koshary" height="auto" width="133.3%"/>
+    </center>
+  </div>
+</div>
+</head> 
+
+<body>
+
+<hr style="height: 2px; margin-top: 2%; background-color: black; width: 120%; position: relative; right: 100px;">
+<h4>
+  Ingredients:
+  <br>
+  <ul style="font-size: 20px;line-height: 1.5em;">
+    <li>1 lb ground meat (beed, or turkey)</li>
+    <li>1.5 cups of short-grain rice</li>
+    <li>Beef Intenstines</li>
+    <li>Yellow Onion</li>
+    <li>Head of Garlic</li>
+    <li>half can of crushed tomato sauce</li>
+    <li>2 tbsp of tomato paste</li>
+    <li>Cumin</li>
+    <li>Coriander</li>
+    <li>Chili Powder</li>
+    <li>Paprika</li>
+    <li>Garlic Powder</li>
+    <li>Bay Leaves</li>
+    <li>dried chilis</li>
+    <li>dried herbs</li>
+  </ul>
+  <hr style="height: 2px; margin-top: 5%; background-color: black; width: 120%; position: relative; right: 100px;">
+</h4>
+<h4>
+  Directions:
+  <ol style="font-size: 20px;line-height: 2em;">
+    <li>Time to start the stuffing. Start by dicing an onion and a few cloves of garlic. Heat a pan with neutral oil. Once hot, add in the garlic, onion, bay leaves, and dried chilis. Season with salt and pepper to taste. Once the onions have become translucent, add the ground meat into the pan. Add the rest of the seasonings generously and to taste. Once the meat has browned, add the tomato paste until it is cooked through and incorporated into the meat. Then add the crushed tomato sauce and rice (make sure the rice has been washed!). Add more cumin, salt, parsely to taste (we want it seasoned! Cook for about 5 min until the tomato sauce has reduced.</li>
+    <li>Start by making sure the beef intestines are properly cleaned. Once cleaned, stuff them with around a few inches left on the end for the rice to expand and cook without the casing potentially exploding or rice escaping.</li>
+    <li>Boil water with salt. Start boiling the sausages for around 20 min, until the rice is fully cooked. This happens when the sausage starts floating and you see the skin swelling.</li>
+    <li>Time to crisp them up! Get a pan with neutral oil and a few spoons of ghee. Once hot, place the sausages in the pan. Once it is crispy, flip it until all sides are crispy.</li>
+    <li>Serve with parsley as garnish! EAT UP!</li>
+  </ol>
+</h4>
+</body>
+</div>
+{% endblock %}

@@ -1,0 +1,76 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="molokhia">
+<html>
+<head>
+  <style> 
+    {
+      box-sizing: border-box;
+    }
+    .column{
+      float: left;
+    }
+    .left{
+      width: 50%;
+    }
+    .right{
+      width: 50%;
+    }
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  </style>
+<div class="row">
+  <div class="column left"
+    <h4 style="font-size: 3.5em; position:relative; left: 40px; padding-top: 28%;">
+      Molokhia (ملوخيه)
+    </h4>
+    <p style="font-size: 20px; color: black; font-family:'Baskerville Old Face', serif; position:relative; right:140px; line-height: 1.5em;">
+      Total Time: 4 hrs <br> 
+      Difficulty: &#9733;&#9733;&#9733;
+    </p>
+    <hr style="background-color:#000000; height: .5px; position:relative; right:127px; width: 50%;">
+   
+  </div>
+  
+  <div class="column right" 
+    <center style="margin-top: 7%; ">
+      <img src="{{url_for('static', filename='img/molo1.jpeg')}}" class="img" alt="koshary" height="auto" width="133.3%"/>
+    </center>
+  </div>
+</div>
+</head> 
+
+<body>
+
+<hr style="height: 2px; margin-top: 5%; background-color: black; width: 120%; position: relative; right: 100px;">
+<h4>
+  Ingredients:
+  <br>
+  <ul style="font-size: 20px;line-height: 1.5em;">
+    <li>1lb of raw cubed meat (can be beef, veal, or lamb)</li>
+    <li>1 package of frozen chopped mallow leaves</li>
+    <li>All Spice</li>
+    <li>Bay Leaves</li>
+    <li>Dried Chilis (can be guajillo, ancho, or cayenne)</li>
+    <li>Salt/Pepper</li>
+    <li>1 Yellow Onion</li>
+    <li>2 Tomatoes (any kind except cherry tomatoes)</li>
+    <li>1 head of Garlic</li>
+    <li>1 tbsp Ghee</li>
+  </ul>
+  <hr style="height: 2px; margin-top: 5%; background-color: black; width: 120%; position: relative; right: 100px;">
+</h4>
+<h4>
+  Directions:
+  <ol style="font-size: 20px;line-height: 2em;">
+    <li>Let's begin by cooking the meat! First in a large pot, rinse meat in cold water to get rid of any impurities. Then add enough water to make a healthy serving of stew. Then add a handful of whole all spice, 4 bay leaves, a few dried chilis, a scored whole peeled onion, and two scored whole tomatoes. Let this boil and cook for at least 2 hours. It is done once the meat is tender.</li>
+    <li>Once the meat is tender, put the whole package of frozen mallow leaves into the pot and wait until it has whole melted and boiling.</li>
+    <li>Now it's time for my favorite part. This step is called the "tasha" in Arabic. It is essentially the garnish that really makes Molokhia "Molokhia". First start by chopping and finely dicing around a whole head of garlic. Then in a small pan, melt around a tablespoon of ghee. Once fully melted, add the garlic along with salt. Cook until golden brown. Now for the crucial step. Hold the cover of your pot in one hand and the garlic pan in other. The idea is as soon as you poor the garlic, quickly close the pot and let it sizzle for a few seconds. Then take a ladel and ladel in a few spoons of the soup into the pan to get any last bits of delicious garlic and ghee into the soup. Then taste and add salt to taste! </li>
+  </ol>
+</h4>
+</body>
+</div>
+{% endblock %}

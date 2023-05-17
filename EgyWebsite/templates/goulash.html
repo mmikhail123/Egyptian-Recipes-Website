@@ -1,0 +1,87 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="koshary">
+<html>
+<head>
+  <style> 
+    {
+      box-sizing: border-box;
+    }
+    .column{
+      float: left;
+    }
+    .left{
+      width: 50%;
+    }
+    .right{
+      width: 50%;
+    }
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  </style>
+<div class="row">
+  <div class="column left"
+    <h4 style="font-size: 3.5em; position:relative; right: 35px; padding-top: 28%;">
+      Goulash (جلاش باللحمة)
+    </h4>
+    <p style="font-size: 20px; color: black; font-family:'Baskerville Old Face', serif; position:relative; right:75px; line-height: 1.5em;">
+      Total Time: 1 hr 30 min <br> 
+      Difficulty: &#9733;&#9733;&#9733;
+    </p>
+    <hr style="background-color:#000000; height: .5px; position:relative; right:75px; width: 50%;">
+   
+  </div>
+  
+  <div class="column right" 
+    <center style="margin-top: 7%; ">
+      <img src="{{url_for('static', filename='img/gou1.jpeg')}}" class="img" alt="koshary" height="auto" width="133.3%"/>
+    </center>
+  </div>
+</div>
+</head> 
+
+<body>
+
+<hr style="height: 2px; margin-top: 5%; background-color: black; width: 120%; position: relative; right: 100px;">
+<h4>
+  Ingredients:
+  <br>
+  <ul style="font-size: 20px;line-height: 1.5em;">
+    <li>1 package of frozen phyllo dough</li>
+    <li>1lb ground meat (beef or turkey)</li>
+    <li>Yello Onion</li>
+    <li>Garlic</li>
+    <li>1 can crushed tomato sauce</li>
+    <li>2 tablespoons of tomato paste</li>
+    <li>Melted Butter</li>
+    <li>2 eggs</li>
+    <li>1 cup milk</li>
+    <li>Healthy amount of parsley</li>
+    <li>4 Bay Leaves</li>
+    <li>Salt/Pepper</li>
+    <li>Healthy amount of Chili Powder</li>
+    <li>Healthy amount of Paprika</li>
+    <li>Healthy amount of Garlic Powder</li>
+    <li>Healthy amount of Dried Herbs</li>
+    <li>Healthy amount of Dried Chilis (guajillo, ancho, or cayenne)</li>
+    <li>Healthy amount of Cumin</li>
+  </ul>
+  <hr style="height: 2px; margin-top: 5%; background-color: black; width: 120%; position: relative; right: 100px;">
+</h4>
+<h4>
+  Directions:
+  <ol style="font-size: 20px;line-height: 2em;">
+    <li>Take out the phyllo dough a night prior to cooking and let it defrost in the refrigerator. The morning of, take out the phyllo dough on the counter.</li>
+    <li>Start by making the ground meat layer. Start by finely dicing one onion and a few cloves of garlic. In a pan, heat natural oil. Once hot, add the onions/garlic along wiht a few chilis and the bay leaves. Season with a generous amount of salt and pepper to taste. Once the onions sweat and become translucent, add the ground meat. Add the rest of the seasonings to taste. Once the ground meat has been browned and little liquid remains, add the tomato paste until it has been fully cooked and incorporated in the mixture. Then add the can of crushed tomato sauce into the pan. Then add the parsley and adjust the seasonings to taste. Let it simmer on low-medium heat for 15 min. Feel free to add bits of water if dry (but not too much!).</li>
+    <li>Let's start layering! Take out the phyllo dough from the package. Start by brushing the bottom of the pan with butter. Next, add layers of phyllo dough, brushing butter in between each layer. Now you have options! You can choose to make one single layer of meat halfway into the phyllo or have two layers of meat! If doing one layer, once you go through half of the phyllo, layer all the meat and proceed as you were until you use all the phyllo dough. If you do two layers of meat, once you go through a third of the phyllo dough, add half of the meat, go through the next third of phyllo dough, add your second layer, and then the rest of the phyllo dough.</li>
+    <li>Now that you are done layering, cut the phyllo dough into triangles by first cutting squares and then cutting diagnols splitting the squares in half. Now for the topping! Whisk together the milk and eggs in a bowl. Pour this on top of the mixture and let it sink into the phyllo dough, especially into the crevices.</li>
+    <li>Heat the oven to bake at 450 degrees. Once heated, put the goulash in the oven and let it cook until the top becomes golden brown. This will take around 20-40 min (but keep an eye on it!).</li>
+    <li>SERVE!</li>
+  </ol>
+</h4>
+</body>
+</div>
+{% endblock %}

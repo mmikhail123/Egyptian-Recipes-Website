@@ -1,0 +1,88 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="koshary">
+<html>
+<head>
+  <style> 
+    {
+      box-sizing: border-box;
+    }
+    .column{
+      float: left;
+    }
+    .left{
+      width: 50%;
+    }
+    .right{
+      width: 50%;
+    }
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  </style>
+<div class="row">
+  <div class="column left"
+    <h4 style="font-size: 3.5em; position:relative; left: 40px; padding-top: 28%;">
+      Mahshi (محشي)
+    </h4>
+    <p style="font-size: 20px; color: black; font-family:'Baskerville Old Face', serif; position:relative; right:140px; line-height: 1.5em;">
+      Total Time: 2 hrs <br> 
+      Difficulty: &#9733;&#9733;&#9733;&#9733;
+    </p>
+    <hr style="background-color:#000000; height: .5px; position:relative; right:127px; width: 50%;">
+   
+  </div>
+  
+  <div class="column right" 
+    <center style="margin-top: 7.52%; ">
+      <img src="{{url_for('static', filename='img/mah4.jpeg')}}" class="img" alt="koshary" height="auto" width="133.3%"/>
+    </center>
+  </div>
+</div>
+</head> 
+
+<body>
+
+<hr style="height: 2px; margin-top: 2%; background-color: black; width: 120%; position: relative; right: 100px;">
+<h4>
+  Ingredients:
+  <br>
+  <ul style="font-size: 20px;line-height: 1.5em;">
+    <li>1 lb ground meat (beed, or turkey)</li>
+    <li>Vegetables you're stuffing (squash, peppers, small eggplant, grape leaves)</li>
+    <li>meat stock</li>
+    <li>Yellow Onion</li>
+    <li>Head of Garlic</li>
+    <li>1.5 cups of short-grain rice</li>
+    <li>half can of crushed tomato sauce</li>
+    <li>2 tbsp of tomato paste</li>
+    <li>Cumin</li>
+    <li>Coriander</li>
+    <li>Chili Powder</li>
+    <li>Paprika</li>
+    <li>Garlic Powder</li>
+    <li>Bay Leaves</li>
+    <li>dried chilis</li>
+    <li>dried herbs</li>
+  </ul>
+  <hr style="height: 2px; margin-top: 5%; background-color: black; width: 120%; position: relative; right: 100px;">
+</h4>
+<h4>
+  Directions:
+  <ol style="font-size: 20px;line-height: 2em;">
+    <li>Time to start the stuffing. Start by dicing an onion and a few cloves of garlic. Heat a pan with neutral oil. Once hot, add in the garlic, onion, bay leaves, and dried chilis. Season with salt and pepper to taste. Once the onions have become translucent, add the ground meat into the pan. Add the rest of the seasonings generously and to taste. Once the meat has browned, add the tomato paste until it is cooked through and incorporated into the meat. Then add the crushed tomato sauce and rice (make sure the rice has been washed!). Add more cumin, salt, parsely to taste (we want it seasoned! Cook for about 5 min until the tomato sauce has reduced.</li>
+    <li>Time to stuff! This depends on what vegetables you are using.</li>
+    <li>For SQUASH, cut each one in half and spoon out the middle. Make sure to not create a hole at the bottom! Proceed to spoon the stuffing into the squash, leaving about a cm at the top for the rice to cook and expand.</li>
+    <li>For EGGPLANT, cut the top stem part off. Spoon out the middle, making sure to not create a hole at the bottom. Proceed to spoon in the stuffing into eggplant, leaving about a cm at the top for the rice to cook and expand.</li>
+    <li>For PEPPERS, cut the top stem part off. Clean out all the seeds. Spoon in the mixture, leaving a cm at the top for the rice to expand and cook.</li>
+    <li>For GRAPE LEAVES, make sure to drain the water and wash the leaves under cold water. Make sure to tear off the stems of the leaves as well. Now for wrapping each one! Place a leaf on a surface (can be your palm, a plate, table, you do you!). Next scoop a SMALL amount of filling into the middle. Then fold the bottom over and the two sides into the middle. Then roll it towards the top, making a small burrito. Now you just have to do this for the rest of the grape leaves!</li>
+    <li>Once you have stuffed what you wanted to stuff, lay them upright. Fill stock/water (half-half ratio) into the top, lightly touching the top the veggies. Sprinkle in some cumin and a drizzle of oil for good measure.</li>
+    <li>Now for the cooking! Cook on high heat ONLY UNTIL the water starts boiling. Then turn it to low-meidum heat for around 45min-1hr, until the rice has fully cooked (but keep an eye on it!).</li>
+    <li>SERVE!</li>
+  </ol>
+</h4>
+</body>
+</div>
+{% endblock %}
