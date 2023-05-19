@@ -11,14 +11,16 @@ Folders
 
 Main Page
 ---------
-<img width="1440" alt="Screenshot 2023-05-17 at 3 30 47 PM" src="https://github.com/mmikhail123/Egyptian-Recipes-Website/assets/133828017/cc34a069-3a5b-4375-af68-11f730687cc4"> 
-<img width="1440" alt="main img 2" src="https://github.com/mmikhail123/Egyptian-Recipes-Website/assets/133828017/62b890b2-f3b5-41bc-84c9-96dae31cbc92">
+<img width="1440" alt="main pg 1" src="https://github.com/mmikhail123/Egyptian-Recipes-Website/assets/133828017/3dab84f6-f23c-4d51-941e-f40d3a1d2f64">
+<img width="1440" alt="main pg 2" src="https://github.com/mmikhail123/Egyptian-Recipes-Website/assets/133828017/0114c05c-fd65-49a6-85ab-1f055f82572d">
+
 <hr>
 <br>
 
 Sample of each recipe page
 -----
-<img width="1440" alt="sample recipe img 1" src="https://github.com/mmikhail123/Egyptian-Recipes-Website/assets/133828017/61d35132-9e9d-4faa-b03f-a918bf36419f">
-<img width="1440" alt="sample recipe img 1" src="https://github.com/mmikhail123/Egyptian-Recipes-Website/assets/133828017/0a10903b-c264-494a-a787-8f81587209c7">
-<img width="1440" alt="sample recipe img 1" src="https://github.com/mmikhail123/Egyptian-Recipes-Website/assets/133828017/080474df-8b57-437d-ba81-5a3537827c4a">
+
+<img width="1440" alt="sample img 1" src="https://github.com/mmikhail123/Egyptian-Recipes-Website/assets/133828017/7389ee2a-ba98-4ff2-8410-e7062c3fcf5a">
+<img width="1440" alt="sample img 2" src="https://github.com/mmikhail123/Egyptian-Recipes-Website/assets/133828017/3fd8964c-f32c-4af7-89f5-07ec2f6e9985">
+<img width="1440" alt="sample img 3" src="https://github.com/mmikhail123/Egyptian-Recipes-Website/assets/133828017/52de92d2-7617-447d-96de-9dc65d2e1c88">
 
